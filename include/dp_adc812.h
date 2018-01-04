@@ -13,6 +13,9 @@
 namespace DP
 {
 
+/**
+ * \brief ADC812 DP peripheral
+ */
 class ADC812 : public Sensor
 {
 private:

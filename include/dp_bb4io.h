@@ -12,7 +12,9 @@
 
 namespace DP
 {
-// BB4IO peripheral
+/**
+ * \brief BB4IO DP peripheral
+ */
 class BB4IO : public Sensor
 {
 private:

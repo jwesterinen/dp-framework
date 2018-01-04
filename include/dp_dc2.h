@@ -13,6 +13,9 @@
 namespace DP
 {
 // TODO: implement missing configurators
+/**
+ * \brief DC2 DP peripheral
+ */
 class DC2 : public Actuator
 {
 public:

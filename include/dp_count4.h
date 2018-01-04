@@ -12,6 +12,9 @@
 
 namespace DP
 {
+/**
+ * \brief COUNT4 DP peripheral
+ */
 class COUNT4 : public Sensor
 {
 private:

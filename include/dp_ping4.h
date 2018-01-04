@@ -12,6 +12,9 @@
 
 namespace DP
 {
+/**
+ * \brief PING4 DP peripheral
+ */
 class PING4 : public Sensor
 {
 public:
@@ -26,6 +29,7 @@ public:
 	// TODO: fill in the actual ranges for a Ping device
 	const static unsigned MinRange = 0;
 	const static unsigned MaxRange = 5000;
+
 	// OR these together to form an enable sensor pattern
 	enum SENSORS {SENSOR_0 = 1, SENSOR_1 = 2, SENSOR_2 = 4, SENSOR_3 = 8};
 

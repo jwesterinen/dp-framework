@@ -21,6 +21,9 @@ $(TARGET) : $(OBJECTS)
 $(OBJ)/%.o: $(SRC)/%.cpp $(HEADERS)
 	g++ $(CPPFLAGS) -o $@ $<
 
+docs:
+	doxygen Doxyfile
+
 .PHONY: clean
 clean:
 	rm -f $(LIB)/* $(OBJ)/*

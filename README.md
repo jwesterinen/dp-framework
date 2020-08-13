@@ -1,2 +1,1 @@
-# dp-framework
-Framework for Demand Peripherals robot control programs.
+Framework library for Demand Peripherals robot control programs.

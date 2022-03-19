@@ -159,7 +159,7 @@ public:
 /**
  * \brief Base class for a DP sensor.
  *
- * A DP sensor is a peripheral that sends an interrupt when its data is available.
+ * A selectable sensor is a peripheral that sends an interrupt when its data is available.
  * The availability of its data can be detected in a select loop.
  */
 class SelectableSensor

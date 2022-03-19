@@ -4,6 +4,7 @@ SRC = ./src
 INC = ./include
 OBJ = ./obj
 LIB = ./lib
+HTML = ./html
 
 INCLUDES = -I./include
 
@@ -27,5 +28,9 @@ docs:
 .PHONY: clean
 clean:
 	rm -f $(LIB)/* $(OBJ)/*
+
+.PHONY: cleandocs
+cleandocs:
+	rm -fr $(HTML)
 
 
